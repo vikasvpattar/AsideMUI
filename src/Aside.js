@@ -4,7 +4,6 @@ import {
   Card,
   CardContent,
   CardHeader,
-  Checkbox,
   IconButton,
   Typography,
 } from "@mui/material";
@@ -50,7 +49,6 @@ const Aside = () => {
           transition: "0.2s",
 
           "&:hover": {
-            borderBottom: "1px solid blue",
             borderTop: "1px solid blue",
             backgroundColor: "#F3F6FD",
           },
@@ -104,7 +102,6 @@ const Aside = () => {
           transition: "0.2s",
 
           "&:hover": {
-            borderBottom: "1px solid blue",
             borderTop: "1px solid blue",
             backgroundColor: "#F3F6FD",
           },
